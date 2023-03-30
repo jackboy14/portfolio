@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-icons": "^4.8.0",
+    "react-scroll": "^1.8.9"
+  }
+}
