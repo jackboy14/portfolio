@@ -1,5 +1,6 @@
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
+import {Link} from 'react-scroll'
 
 const Home = () => {
   return (
@@ -13,11 +14,13 @@ const Home = () => {
             <p  className='text-[#8892b0] py-4 max-w-[700px]'>I'm a full-stack developer specializing
                  in front-end with React, in back-end
                   with Flask/Django and as far as concerned
-                   a mobile, Flutter/Kotlin. Currently, I'm focused
+                   a mobile, I use Flutter/Kotlin. Currently, I'm focused
                     on building responsive full-stack web application</p>
             <div>
-                <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-red-400 hover:border-red-400'>
-                    View Work 
+                <button to='about' className='text-white group border-2 px-6 py-3 my-2 flex items-center  hover:bg-red-400 hover:border-red-400'>
+                    <Link to="about" smooth={true} duration={500}>
+                        View work
+                    </Link>
                     <span className='group-hover:rotate-90 duration-300'>
                         <HiArrowNarrowRight className='ml-3 '/>
                     </span>
