@@ -1,8 +1,5 @@
 import React from 'react'
 import {AiOutlineCopyright} from 'react-icons/ai'
-import {BsFillEnvelopeFill} from 'react-icons/bs'
-import { FaGithub, FaLinkedin} from 'react-icons/fa'
-import { FaWhatsapp } from 'react-icons/fa';
 
 
 const Footer = () => {
@@ -13,8 +10,8 @@ const Footer = () => {
             <div className='leger  text-gray-500'>
                 <AiOutlineCopyright size={15}/>
             </div>
-            <p className='leger text-gray-500'>
-                All rights reserved | Designed by Dave_code 
+            <p className='leger text-gray-500 pl-2'>
+                2023 - All rights reserved | Designed by Dave_code 
             </p>
         </div>
         
