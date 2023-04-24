@@ -2,5 +2,8 @@
   "dependencies": {
     "react-icons": "^4.8.0",
     "react-scroll": "^1.8.9"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
