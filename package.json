@@ -1,6 +1,8 @@
 {
   "dependencies": {
-    "react-icons": "^4.8.0",
+    "@react-icons/all-files": "^4.1.0",
+    "react-icons": "^4.9.0",
+    "react-icons-kit": "^2.0.0",
     "react-scroll": "^1.8.9"
   },
   "devDependencies": {
