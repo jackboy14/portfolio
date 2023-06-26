@@ -13,13 +13,15 @@ import C from '../assets/c.png'
 import Jetbrains from '../assets/jetbrains.png'
 import Mongo from '../assets/mongo.png'
 import Alpin from '../assets/alpinjs.png'
+import Docker from '../assets/docker.png'
+import Azure from '../assets/azure.png'
 
 
 const Experiences = () => {
   return (
-    <div id="bg" name='experiences' className='w-full h-[1100px] bg-[#273347] text-white py-4'>
+    <div id="bg" name='experiences' className='w-full h-[1400px] bg-[#273347] text-white py-4'>
         {/* CONTAINER */}
-        <div className='max-w-[1000px]  mx-auto p-10 flex flex-col justify-center w-full h-full'>
+        <div className='max-w-[1100px]  mx-auto p-6 flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-5xl font-bold inline border-b-4 border-green-500 '>Experiences</p>
                 <p className='py-4 text-2xl'>// These are the technologies I've worked with</p>
@@ -72,6 +74,14 @@ const Experiences = () => {
                 <div className='shadow-md shadow-[#122136] -hover:scale-110 hover:bg-[#2d8e6a] duration-500'>
                     <img className='w-32 mx-auto my-4' src={GIT} alt="BOOTSTRAP icon" />
                     <p className='my-8'>Github</p>
+                </div>
+                <div className='shadow-md shadow-[#122136] -hover:scale-110 hover:bg-[#2d8e6a] duration-500'>
+                    <img className='w-56 mx-auto ' src={Docker} alt="Docker icon" />
+                    <p className='mb-4 mt-0'>Docker</p>
+                </div>
+                <div className='shadow-md shadow-[#122136] -hover:scale-110 hover:bg-[#2d8e6a] duration-500'>
+                    <img className='w-48 mx-auto my-4' src={Azure} alt="Azure icon" />
+                    <p className='my-6'>Microsoft Azure</p>
                 </div>
                 <div className='shadow-md shadow-[#122136] -hover:scale-110 hover:bg-[#2d8e6a] duration-500'>
                     <img className='w-24 mx-auto my-4' src={Jetbrains} alt="BOOTSTRAP icon" />
